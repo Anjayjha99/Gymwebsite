@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJ's Fitness</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <style>
+        .left {
+            height: 100px;
+            width: 140px;
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 10px;
+            top: 15px;
+            padding: 10px;
+        }
+
+        .left div {
+            line-height: 0px;
+            font-size: 20px;
+            text-align: center;
+            margin: 18px;
+        }
+
+        img {
+            height: 94px;
+            width: 111px;
+            filter: invert(89%);
+        }
+
+        body {
+            color: whitesmoke;
+            font-family: 'Baloo Bhai', cursive;
+            margin: 0px;
+            padding: 0px;
+            background-image: url('bg.jpg') ;
+            /* background-size: 1366px; */
+            background-repeat: no-repeat;
+        }
+
+        .mid {
+            display: block;
+            margin: 4px auto;
+            width: 500px;
+        }
+
+        .nav li {
+            display: inline-block;
+            padding: 10px;
+            color: whitesmoke;
+        }
+
+        .nav li a {
+            color: whitesmoke;
+            text-decoration: none;
+        }
+
+        .nav li a:hover {
+            text-decoration: underline;
+            color: thistle;
+            font-weight: bold;
+        }
+
+        .right {
+            display: block;
+            float: right;
+            margin: -60px 10px;
+            padding: 10px;
+        }
+
+        .bt {
+            font-family:'Baloo Bhai', sans-serif , cursive;
+            padding: 2px 20px;
+            border-radius: 17px;
+            cursor: pointer;
+        }
+
+        .bt:hover {
+            text-decoration: underline;
+            font-weight: bold;
+            background-color: teal;
+        }
+        .cont {
+            border: 2px solid white;
+            margin: 125px 365px;;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+            text-align: center;
+        }
+        .cont input{
+            font-family: 'Baloo Bhai', cursive;
+            padding: 10px 115px;
+            font-size: 15px;
+            margin: 7px 5px ;
+            border-radius: 35px;
+            outline: none;
+        }
+        .cont input:focus{
+            box-shadow: 5px 5px gray;
+            font-size: 17px;
+        }
+        .bu{
+            font-family: 'Baloo Bhai', cursive;
+            padding: 15px 150px;
+            border-radius: 35px;
+            margin: 77px 20px 0px 20px;
+            background-color:thistle;
+        }
+        .bu:hover{
+            cursor: pointer;
+            font-weight: bold;
+            background-color: rgb(107, 238, 172);
+        }
+        #a{
+            margin-top: 10px;
+            background-color:lightblue;
+        }
+        #a:hover{
+            background-color:lightsalmon;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="left">
+        <div>AJ's Gym</div>
+        <img src="logo.jpg" alt="LOGO is NOT working">
+    </div>
+    <div class="mid">
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Fitness Calculator</a></li>
+            <li><a href="#">Enroll Yourself</a></li>
+        </ul>
+    </div>
+    <div class="right">
+        <button class="bt">Contact Us</button>
+        <button class="bt">Email Us</button>
+    </div>
+    <div class="cont">
+        <h1>Join Us Now</h1>
+        <form action="no.php">
+            <div class="fo">
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="fo">
+                <input type="text" placeholder="Enter Your Address">
+            </div>
+            <div class="fo">
+                <input type="text" placeholder="Enter Your Contact">
+            </div>
+            <div class="fo">
+                <input type="email" placeholder="Enter Your Email">
+            </div>
+            <div class="fo">
+                <button class= "bu">Submit Now</button>
+            </div>
+            <div class="fo">
+                <input id="a" type="reset" value="Reset">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
